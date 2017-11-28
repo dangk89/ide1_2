@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="main.js"></script>
+
+    <!-- Files for stl import with threejs -->
+    <script src="http://threejs.org/build/three.js"></script>
+    <script src="http://threejs.org/build/three.js"></script>
+    <title>Project 1</title>
+  </head>
+  <body>
+    <style media="screen">
+      img { width: 20%; }
+    </style>
+    <h1 style="color: rgba(255, 99, 71, 0.7)">Is this a duck or a rabbit?</h1>
+
+    <div id="images">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Duck-Rabbit_illusion.jpg" alt="Duck-rabbit illusion"/>
+    </div>
+
+    <ul>
+      <li><a href="https://www.dr.dk/nyheder/politik/kv17/resultater">Results of municipality election 2017</a>.<br/>
+        This infographic contains an abundance of information. It is able to
+        capture both the destinction between municipality/region elections,
+        geographical dispersion and vote distribution. Using a map to display
+        the actual municipalities and colour codes to signal the overall results
+        of the individual locations, without the user having to navigate into
+        details. By clicking and interacting on the map, a view
+        of regions, municipalities and later constituencies, explains the vote
+        distribution with a high degree of detail. Especially the historical
+        comparison (percentage- and candidate-wise) is useful for putting the
+        information in context. On the negative side it contains a lot of
+        information that inevitable is confusing to navigate. It is also a
+        little sluggish, discouraging the user to thoroughly interact with all
+        levels in the visualisation.
+      </li>
+      <li><a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">A visual introduction to machine learning</a>.<br/>
+        This website uses visualization to explain some of the main concepts
+        in machine learning in a simple and intuitive way. The whole page works
+        as an interactive visualization where the information changes as the reader
+        scrolls through the page. While some of the effects might seem a bit excessive,
+        the animations help convey some rather complex ideas and concepts in an intuitive
+        and interactive way.Since the target audience is most likely people with little or
+        no knowledge of machine learning, the website might benefit from being even more
+        interactive. For example letting the user change some of the variables in the process
+        would provide a better experience through hands-on experience with the area.
+        But again, more interactivity might also clutter the visualization and make
+        the experience more confusing.
+      </li>
+    </ul>
+
+    <h2>Dan Graakjær</h2>
+    <p>My area of study and interest lies mainly within the field of machine learning.
+      This means that a lot of the projects i work with is very data heavy, both with regards
+    to quantity but also when it comes to the amount of work and focus on preprocessing steps
+    and analysis. A lot of this work will benefit greatly from using visualization as a tool
+    for me to gain insight into the data I'm working with, keep track of the data transformations
+    throughout the data processing and also analyze the results afterwards. Furthermore visualization
+    is also great for conveying some of the findings in this area. A lot of the concepts are complex and
+    technical in nature, and visual representations will greatly reduce the difficulty of grasping these
+    concepts (For example the intro to machine learning above).
+    Another great example of how the visualization can help convey different types of data,
+    different data transformations can be seen at the
+      <a href="http://playground.tensorflow.org">tensorflow website</a>.</p>
+
+    <h2>Jens Egholm</h2>
+    <p>I work with neuromorphic computation and machine learning, and through
+    that data with a high degree of complexity. I often get the feeling that
+    I miss important correlations and hard-to-see causalities, simply because
+    the data is difficult to intuit about. Focusing on the neuromorphic part,
+    I would get the data from different
+    <a href="https://senselab.med.yale.edu/3dmodeldb/">3d model datasets</a>
+    and the Human Brain Project, who are currently storing terrabytes of data
+    on neural connections and neural models of humans, rats and mice.</p>
+    <p>To begin with it would be interestconfusinging to visualise some of the
+    connections of the different brain modules, to underline
+    the complexity of the domain. The story of such a visualisation would focus
+    on giving the user an understanding of the diffent areas of the brain, how
+    they are connected and potentially how they work. This would bring some
+    of the at times inaccessible information to a broader audience. But the
+    primary audience would be the researchers associated with the project, to
+    help them visualising information to shed light on otherwise hidden
+    aspects of the data.</p>
+    <p>Prototype at <a href="neuron.html">neuron.html<a></p>
+    <p>This first prototype takes the <code>.stl</code> file and imports it
+    using threejs. The model is downloaded from the
+    <a href="https://senselab.med.yale.edu/3dmodeldb/showmodel?model=155977">https://senselab.med.yale.edu/3dmodeldb</a>
+    database and describes an Olfactory bulb mitral cell microcurcuit in a rat.
+    </p>
+  </body>
+</html>
